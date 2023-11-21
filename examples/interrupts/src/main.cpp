@@ -9,7 +9,7 @@
 void IRAM_ATTR on_handleInterrupt(){
   noInterrupts();
   digitalWrite(D12, 1);
-  interrupts()
+  interrupts();
 }
 
 
